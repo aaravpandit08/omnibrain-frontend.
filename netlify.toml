@@ -1,0 +1,19 @@
+# ============================================
+# NETLIFY CONFIG - OmniBrain AI
+# ============================================
+
+[build]
+  publish = "."
+
+# 🔴 PROXY - Backend URL yahan change karna
+[[redirects]]
+  from = "/api/*"
+  to = "https://your-railway-app.up.railway.app/api/:splat"  # ← YEH CHANGE KARNA
+  status = 200
+  force = true
+
+# SPA Routing
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
