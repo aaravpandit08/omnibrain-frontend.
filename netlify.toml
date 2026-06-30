@@ -7,7 +7,7 @@
   functions = "netlify/functions"
 
 [build.environment]
-  GEMINI_API_KEY = "AQ.Ab8RN6LQcEw5bBqRO6c0WKL-6L6YNowYE8Y2r6UGZRWAZXh51Q"
+  GEMINI_API_KEY = "AQ.Ab8RN6JubUqQgVAiG7CaiKosJKsNdhpJi5MyXAvIMHl3jbDMsg"
 
 [[redirects]]
   from = "/*"
