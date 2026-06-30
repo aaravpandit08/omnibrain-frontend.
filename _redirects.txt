@@ -1,7 +1,0 @@
-# Netlify Redirects - OmniBrain AI
-
-# API Proxy: Frontend /api/* calls ko Netlify Functions pe bhejo
-/api/*    /.netlify/functions/:splat    200
-
-# SPA Fallback: React/Vue routing ke liye
-/*        /index.html                    200
